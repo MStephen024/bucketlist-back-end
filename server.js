@@ -10,7 +10,6 @@ const userRoutes = require('./app/routes/user_routes')
 const listItemRoutes = require('./app/routes/list_item_routes')
 const memoryRoutes = require('./app/routes/memory_routes')
 
-
 // require error handling middleware
 const errorHandler = require('./lib/error_handler')
 
