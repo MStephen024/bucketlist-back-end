@@ -8,6 +8,10 @@ const cors = require('cors')
 const exampleRoutes = require('./app/routes/example_routes')
 const userRoutes = require('./app/routes/user_routes')
 const listItemRoutes = require('./app/routes/list_item_routes')
+<<<<<<< HEAD
+=======
+const memoryRoutes = require('./app/routes/memory_routes')
+>>>>>>> development
 
 // require error handling middleware
 const errorHandler = require('./lib/error_handler')
@@ -62,6 +66,10 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(exampleRoutes)
 app.use(userRoutes)
 app.use(listItemRoutes)
+<<<<<<< HEAD
+=======
+app.use(memoryRoutes)
+>>>>>>> development
 
 // register error handling middleware
 // note that this comes after the route middlewares, because it needs to be
